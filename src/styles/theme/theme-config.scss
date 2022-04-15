@@ -1,0 +1,12 @@
+$themes: (
+  light: (
+    bg: $bg-light,
+    bg-secondary: $bg-secondary-light,
+    text-color: $dark-text-color,
+  ),
+  dark: (
+    bg: $bg-dark,
+    bg-secondary: $bg-secondary-dark,
+    text-color: $light-text-color,
+  ),
+);

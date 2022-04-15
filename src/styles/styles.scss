@@ -1,0 +1,23 @@
+// Theme
+@import './theme/theme.scss';
+@import './theme/theme-config.scss';
+
+// Base
+@import './base/settings';
+@import './base/base';
+@import './base/mixins';
+@import './base/utilities';
+
+h1 {
+    @include themify(){
+        background-color: themed("bg");
+        color: themed("text-color");
+    }
+}
+
+.main-content {
+    @include themify(){
+        background-color: themed("bg");
+    }
+    height: 100vh;
+}
