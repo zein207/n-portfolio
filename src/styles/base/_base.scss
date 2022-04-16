@@ -14,6 +14,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: initial;
 }
 
 button {
@@ -23,6 +24,14 @@ button {
 
 h1 {
     font-family: $f-title;
+}
+
+.mt-5 {
+    margin-top: 25px;
+}
+
+.mr-4 {
+    margin-right: 20px;
 }
 
 .c-primary {
