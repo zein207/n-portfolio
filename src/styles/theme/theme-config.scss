@@ -2,11 +2,13 @@ $themes: (
   light: (
     bg: $bg-light,
     bg-secondary: $bg-secondary-light,
+    bg-transparent: $bg-transparent-light,
     text-color: $dark-text-color,
   ),
   dark: (
     bg: $bg-dark,
     bg-secondary: $bg-secondary-dark,
+    bg-transparent: $bg-transparent-dark,
     text-color: $light-text-color,
   ),
 );

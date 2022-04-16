@@ -1,0 +1,16 @@
+
+
+.main-container {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .theme--dark &{
+        background-image: url('../../../public/images/bg-dark-mobile.JPEG');
+    }
+
+    .theme--light &{
+        background-image: url('../../../public/images/bg-light-mobile.JPEG');
+    }
+}

@@ -9,7 +9,7 @@
         padding: 20px;
         border-bottom: 1px solid gray;
         @include themify(){
-            background-color: themed("bg");
+            background-color: themed("bg-transparent");
             color: themed("text-color");
         }
     }
@@ -28,6 +28,18 @@
         @include themify(){
             background-color: themed("bg");
         }
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        .theme--dark &{
+            background-image: url('../../../public/images/bg-dark-mobile.JPEG');
+        }
+
+        .theme--light &{
+            background-image: url('../../../public/images/bg-light-mobile.JPEG');
+        }
     }
 
     &__brand {
@@ -40,6 +52,10 @@
         display: flex;
         flex-direction: column;
         padding: 20px;
+        height: 100%;
+        @include themify(){
+            background-color: themed("bg-transparent");
+        }
     }
 
     &__close-btn {
