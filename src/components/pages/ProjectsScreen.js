@@ -1,7 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import { projects } from '../../data/projects'
+import { ProjectCard } from '../ui/ProjectCard'
 
 export const ProjectsScreen = () => {
+
+  useEffect(() => {
+    document.querySelector('.main-container').scrollTop = 0;
+  }, [])
+
   return (
-    <div>ProjectsScreen</div>
+
+    <div className='projects__main-container'>
+
+        <h2 className='projects__title'>Projects that I've worked on</h2>
+
+        <div className='projects__wrapper'>
+
+          {
+            projects.map( project => (
+
+              <ProjectCard key={ project.id } {...project} />
+
+            ))
+          }
+            
+        </div>
+    </div>
+
   )
 }

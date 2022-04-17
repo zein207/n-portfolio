@@ -1,0 +1,30 @@
+.projects {
+
+    &__main-container {
+        padding: 0 20px;
+        margin-top: 75px;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+    }
+
+    &__title {
+
+        border-bottom: 1px solid $c-light-gray;
+        padding-bottom: 10px;
+        @include themify(){
+            color: themed("text-color");
+        }
+    }
+
+    &__more {
+        @include themify(){
+            color: themed("text-color");
+        }
+    }
+}

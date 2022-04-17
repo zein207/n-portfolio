@@ -6,6 +6,7 @@
 
 body {
     font-family: $f-body;
+    scroll-behavior: smooth;
 }
 
 ul {
@@ -26,6 +27,11 @@ h1 {
     font-family: $f-title;
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
 .f-body {
     font-family: $f-body;
 }
@@ -40,4 +46,20 @@ h1 {
 
 .c-primary {
     color: $c-primary;
+}
+
+.btn {
+    padding: 10px 50px;
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.btn-primary {
+    background-color: $c-primary;
+    color: #fff;
+}
+
+.btn-block {
+    display: block;
 }
