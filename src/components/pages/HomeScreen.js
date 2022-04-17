@@ -1,7 +1,12 @@
 import React from 'react'
+import { About } from '../ui/About'
 
 export const HomeScreen = () => {
   return (
-    <div>HomeScreen</div>
+    <div className='home__wrapper'>
+      <About />
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio praesentium aperiam sunt ipsum voluptate recusandae quidem alias minima quasi. Impedit nisi exercitationem voluptates atque pariatur, numquam autem, quas in veritatis ea necessitatibus suscipit, sunt libero? Debitis aliquam sunt ullam totam doloribus accusamus vel enim in earum iste, eius omnis repellat odit nesciunt vitae sequi libero assumenda reprehenderit ex dicta nam! Voluptatem eaque explicabo quae nobis, magni quidem nemo enim. Cupiditate necessitatibus error iusto minus sunt voluptatem tempore, fuga repellat obcaecati aliquam officia hic, optio quo omnis delectus nam maiores vel natus sapiente ut. Tempora dolor provident rerum officiis dolorum commodi et quibusdam, quod numquam amet vero? Sit commodi iste illum facere eaque deserunt beatae nihil quisquam. Dignissimos autem non, ullam suscipit repudiandae, natus et voluptatum repellendus sunt, ut eum magni laboriosam sapiente molestiae vitae ab consequuntur totam similique iusto aliquam cum. Reiciendis, nobis sit. Vero ratione illo molestiae? Nemo, magnam impedit. Neque dicta fuga error accusantium officiis consequatur consequuntur dolorem excepturi quibusdam aut voluptatibus aliquid expedita fugit repellendus, odio, nemo recusandae non, voluptatem debitis omnis quae! Aliquam quibusdam illo tenetur. Sunt ullam quibusdam odio unde dignissimos accusantium nam quis adipisci necessitatibus harum itaque nisi, explicabo corrupti iure! Ipsam perferendis dignissimos vero culpa dolorum optio, inventore sapiente animi magni consequuntur reprehenderit nulla eaque autem. Fuga consectetur assumenda eligendi nemo, asperiores tempora. Aut, laborum placeat maxime itaque optio consequuntur error omnis eligendi at perferendis unde, natus molestiae ad esse dignissimos nesciunt, totam ut. Eos, veritatis commodi enim, ipsum tempore quis ducimus harum distinctio atque inventore perferendis. Deserunt dolores ex odio eius quam laudantium pariatur ea quasi? Reprehenderit sit quaerat asperiores voluptatibus sed perferendis corrupti maxime animi, earum consequatur alias distinctio autem. Possimus, adipisci. Illo nemo repellendus molestiae ex eos, quam doloremque facere sequi. At expedita, dolorum necessitatibus doloribus in nisi tempore dolor.</p>
+    </div>
   )
 }

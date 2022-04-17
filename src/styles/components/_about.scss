@@ -1,0 +1,26 @@
+.about__wrapper {
+
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    @include mediaFrom(lg) {
+        padding-left: 130px;
+    }
+    
+    h1 {
+        position: relative;
+        bottom: 45px;
+        letter-spacing: 1px;
+
+        @include themify(){
+            color: themed("text-color");
+        }
+
+        @include mediaFrom(lg) {
+            font-size: 50px;
+            letter-spacing: 2px;
+            bottom: 0px;
+        }
+    }
+}

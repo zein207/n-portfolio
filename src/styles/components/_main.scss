@@ -2,15 +2,24 @@
 
 .main-container {
     height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 
     .theme--dark &{
         background-image: url('../../../public/images/bg-dark-mobile.JPEG');
+
+        @include mediaFrom(lg) {
+            background-image: url('../../../public/images/bg-dark-desktop.JPEG');
+        }
     }
 
     .theme--light &{
         background-image: url('../../../public/images/bg-light-mobile.JPEG');
+        @include mediaFrom(lg) {
+            background-image: url('../../../public/images/bg-light-desktop.JPEG');
+        }
     }
 }

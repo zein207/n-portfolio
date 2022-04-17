@@ -13,17 +13,4 @@
 @import './components/navbar';
 @import './components/logo';
 @import './components/theme-btn';
-
-h1 {
-    @include themify(){
-        background-color: themed("bg");
-        color: themed("text-color");
-    }
-}
-
-.main-content {
-    @include themify(){
-        background-color: themed("bg");
-    }
-    height: 100vh;
-}
+@import './components/about';
