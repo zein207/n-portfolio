@@ -2,6 +2,9 @@
 
     &__wrapper {
         text-align: center;
+        @include mediaFrom(lg) {
+            text-align: left;
+        }
     }
 
     &__item {
@@ -30,6 +33,7 @@
 
         h1, p {
             text-align: center;
+
             @include themify(){
                 color: themed("text-color");
             }
@@ -39,5 +43,14 @@
             margin: 100px 0;
         }
 
+    }
+}
+
+.info {
+    @include mediaFrom(lg) {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        margin-bottom: 120px;
     }
 }

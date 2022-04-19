@@ -8,13 +8,21 @@ export const HomeScreen = () => {
   return (
     <div className='home__wrapper'>
 
+      <div>
       <About />
       
       <Projects />
 
-      <Skills />
+      </div>
 
-      <Contact />
+      <div className='center info'>
+
+        <Skills />
+
+        <Contact />
+
+      </div>
+
 
     </div>
   )

@@ -13,6 +13,11 @@
         height: 200px;
         border-radius: 10px;
         object-fit: cover;
+
+        @include mediaFrom(lg) {
+            width: 280px;
+            height: 180px;
+        }
     }
 
     &__text-wrapper {

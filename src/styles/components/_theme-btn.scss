@@ -1,6 +1,7 @@
 
 .theme-button {
     font-size: 18px;
+    cursor: pointer;
     @include themify(){
         color: themed("text-color");
     }

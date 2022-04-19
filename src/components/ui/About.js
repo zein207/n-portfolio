@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export const About = () => {
   return (
-    <div className='about__wrapper'>
+    <div className='about__wrapper center'>
         <div>
 
             <h1>David Ponce</h1>
@@ -12,6 +12,7 @@ export const About = () => {
             </h1>
             <p>
               Hi! I am a developer with huge experience working on <span className='c-primary'>ecommerce</span> projects. I'm a person who constantly seeks out <span className='c-primary'>innovative</span> solutions to everyday problems.
+              <br />
               <br />
               I like to collaborated with talented people to create the best <span className='c-primary'>Frontend</span> solutions for our costumers.
             </p>

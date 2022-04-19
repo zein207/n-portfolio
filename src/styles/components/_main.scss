@@ -28,11 +28,13 @@
     position: relative;
     margin-bottom: 30px;
     text-align: center;
+    letter-spacing: 0.9px;
 
     @include themify(){
         color: themed("text-color");
     }
 
+    
     &::after {
         position: absolute;
         content: '';
@@ -41,5 +43,13 @@
         background-color: $c-light-gray;
         bottom: -7px;
         left: 0;
+    }
+
+    @include mediaFrom(lg) {
+        text-align: left;
+
+        &::after {
+            width: 150px;
+        }
     }
 }

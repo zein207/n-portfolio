@@ -10,11 +10,21 @@
         justify-content: space-around;
         text-align: center;
         margin-top: 55px;
+        @include mediaFrom(lg) {
+            text-align: left;
+            justify-content: flex-start;
+        }
     }
 
     &__list {
         @include themify(){
             color: themed("text-color");
+        }
+
+        @include mediaFrom(lg) {
+            &:first-child {
+                margin-right: 40px;
+            }
         }
 
         li {

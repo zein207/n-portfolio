@@ -8,7 +8,7 @@ import { ThemeSetter } from './ThemeSetter';
 export const Navbar = () => {
 
   return (
-    <nav className="navbar__wrapper">
+    <nav className="navbar__wrapper center">
 
       <div className='navbar__brand'>
         <i className="fa-solid fa-bars-staggered fa-2x hidden-lg-up mr-4" onClick={ () => toggleComponent( 'menu', 'left' ) }></i>

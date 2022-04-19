@@ -34,6 +34,10 @@ h1 {
 
 .center {
     padding: 0 20px;
+
+    @include mediaFrom(lg) {
+        padding: 0 120px;
+    }
 }
 
 .f-body {
@@ -62,6 +66,10 @@ h1 {
 
 .pl-5 {
     padding-left: 25px;
+}
+
+.pt-5 {
+    padding-top: 25px;
 }
 
 .c-primary {
