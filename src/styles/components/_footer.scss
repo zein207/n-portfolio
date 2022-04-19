@@ -1,0 +1,26 @@
+footer {
+
+    padding:  60px 0;
+    p, a {
+        @include themify(){
+            color: themed("text-color");
+        }
+    }
+
+    .footer__main-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer__legal {
+        letter-spacing: 0.9px;
+    }
+
+    .footer__social-list {
+        display: flex;
+
+        li {
+            margin: 0 10px;
+        }
+    }
+}
