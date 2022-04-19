@@ -1,7 +1,12 @@
 .contact {
+
+    &__wrapper {
+        text-align: center;
+    }
+
     &__item {
 
-        margin: 10px 0;
+        margin: 20px 0;
         @include themify(){
             color: themed("text-color");
         }
@@ -9,5 +14,30 @@
         i {
             margin-right: 10px;
         }
+    }
+}
+
+.contact-screen {
+
+    &__title {
+        padding-top: 60px;
+    }
+
+    
+    &__wrapper {
+
+        margin-top: 100px;
+
+        h1, p {
+            text-align: center;
+            @include themify(){
+                color: themed("text-color");
+            }
+        }
+
+        .contact__wrapper {
+            margin: 100px 0;
+        }
+
     }
 }

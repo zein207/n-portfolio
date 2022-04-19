@@ -56,6 +56,14 @@ header {
     &__brand {
         display: flex;
         align-items: center;
+
+        i {
+            font-size: 20px;
+        }
+
+        h3 {
+            font-size: 14px;
+        }
     }
 
     &__nav {
