@@ -1,6 +1,7 @@
 import React from 'react'
 import { About } from '../ui/About'
 import { Projects } from '../ui/Projects'
+import { Skills } from '../ui/Skills'
 
 export const HomeScreen = () => {
   return (
@@ -9,6 +10,8 @@ export const HomeScreen = () => {
       <About />
       
       <Projects />
+
+      <Skills />
 
     </div>
   )

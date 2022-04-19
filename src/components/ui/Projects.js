@@ -8,7 +8,7 @@ export const Projects = () => {
     const firstProjects = projects.slice(0, 4)
 
     return (
-        <div className='projects__main-container'>
+        <div className='projects__main-container center'>
 
             <h2 className='subtitle'>Projects that I've worked on</h2>
 
