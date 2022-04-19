@@ -11,7 +11,7 @@ export const ProjectCard = ({ name, cover, url, project_description}) => {
         <div className='project__text-wrapper'>
             <h3 className='project__name'>{ name }</h3>
             <p className='project__description'>{ project_description }</p>
-            <a className='project__url btn btn-primary btn-block' href={ url } target='_blank'>See now</a>
+            <a className='project__url' href={ url } target='_blank'>See now</a>
         </div>
 
     </div>

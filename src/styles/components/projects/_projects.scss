@@ -10,16 +10,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 70px;
-    }
-
-    &__title {
-
-        border-bottom: 1px solid $c-light-gray;
-        padding-bottom: 10px;
-        @include themify(){
-            color: themed("text-color");
-        }
+        margin-top: 20px;
     }
 
     &__more {

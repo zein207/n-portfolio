@@ -23,3 +23,21 @@
         }
     }
 }
+
+.subtitle {
+    position: relative;
+
+    @include themify(){
+        color: themed("text-color");
+    }
+
+    &::after {
+        position: absolute;
+        content: '';
+        width: 150px;
+        height: 1px;
+        background-color: $c-light-gray;
+        bottom: -7px;
+        left: 0;
+    }
+}

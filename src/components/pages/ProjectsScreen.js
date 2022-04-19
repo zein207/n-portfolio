@@ -12,7 +12,7 @@ export const ProjectsScreen = () => {
 
     <div className='projects__main-container'>
 
-        <h2 className='projects__title'>Projects that I've worked on</h2>
+        <h2 className='subtitle'>Projects that I've worked on</h2>
 
         <div className='projects__wrapper'>
 

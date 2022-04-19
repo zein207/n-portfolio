@@ -5,12 +5,12 @@ import { ProjectCard } from './ProjectCard'
 
 export const Projects = () => {
 
-    const firstProjects = projects.slice(0, 3)
+    const firstProjects = projects.slice(0, 4)
 
     return (
         <div className='projects__main-container'>
 
-            <h2 className='projects__title'>Projects that I've worked on</h2>
+            <h2 className='subtitle'>Projects that I've worked on</h2>
 
             <div className='projects__wrapper'>
 

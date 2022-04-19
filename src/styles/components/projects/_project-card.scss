@@ -6,9 +6,6 @@
         padding: 20px;
         border-radius: 10px;
 
-        @include themify(){
-            background-color: themed("bg-transparent");
-        }
     }
 
     &__img {
@@ -19,7 +16,7 @@
     }
 
     &__text-wrapper {
-        margin-top: 50px;
+        margin-top: 15px;
     }
 
     &__name,
@@ -31,7 +28,7 @@
     }
 
     &__url {
-        max-width: 170px;
+        color: $c-primary;
     }
 
     &__description {
