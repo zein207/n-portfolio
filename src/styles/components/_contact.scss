@@ -1,0 +1,13 @@
+.contact {
+    &__item {
+
+        margin: 10px 0;
+        @include themify(){
+            color: themed("text-color");
+        }
+
+        i {
+            margin-right: 10px;
+        }
+    }
+}

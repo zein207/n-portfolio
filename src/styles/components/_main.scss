@@ -26,6 +26,7 @@
 
 .subtitle {
     position: relative;
+    margin-bottom: 30px;
 
     @include themify(){
         color: themed("text-color");

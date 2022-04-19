@@ -1,5 +1,6 @@
 import React from 'react'
 import { About } from '../ui/About'
+import { Contact } from '../ui/Contact'
 import { Projects } from '../ui/Projects'
 import { Skills } from '../ui/Skills'
 
@@ -12,6 +13,8 @@ export const HomeScreen = () => {
       <Projects />
 
       <Skills />
+
+      <Contact />
 
     </div>
   )

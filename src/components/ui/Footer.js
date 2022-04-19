@@ -16,15 +16,15 @@ export const Footer = () => {
           <ul className='footer__social-list'>
 
             <li>
-              <a href='https://www.linkedin.com/in/david-ponce-681450204' target='_blank'><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href='https://www.linkedin.com/in/david-ponce-681450204' target='_blank'><i className="fa-brands fa-linkedin-in"></i></a>
             </li>
 
             <li>
-              <a href='https://github.com/zein207' target='_blank'><i class="fa-brands fa-github"></i></a>
+              <a href='https://github.com/zein207' target='_blank'><i className="fa-brands fa-github"></i></a>
             </li>
 
             <li>
-              <a href='https://www.instagram.com/david_ponce.e' target='_blank'><i class="fa-brands fa-instagram"></i></a>
+              <a href='https://www.instagram.com/david_ponce.e' target='_blank'><i className="fa-brands fa-instagram"></i></a>
             </li>
 
           </ul>

@@ -5,7 +5,7 @@ export const Skills = () => {
     <div className='center mt-5 skills__main-container'>
         <h2 className='subtitle'>I work with the best technologies</h2>
 
-        <div className='skills__content'>
+        <div className='skills__content pl-5'>
             <ul className='skills__list'>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -14,7 +14,7 @@ export const Skills = () => {
                 <li>Bootstrap</li>
             </ul>
 
-            <ul className='skills__list'>
+            <ul className='skills__list ml-6'>
                 <li>React</li>
                 <li>Angular</li>
                 <li>Firebase</li>
