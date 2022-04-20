@@ -43,6 +43,10 @@
         background-color: $c-light-gray;
         bottom: -7px;
         left: 0;
+
+        .theme--light & {
+            background-color: #666;
+        }
     }
 
     @include mediaFrom(lg) {

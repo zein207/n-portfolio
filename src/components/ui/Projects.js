@@ -17,6 +17,9 @@ export const Projects = () => {
 
         breakpoints: {
             768: {
+                perPage: 2
+            },
+            1024: {
                 perPage: 3
             }
         }

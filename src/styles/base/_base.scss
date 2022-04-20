@@ -35,6 +35,10 @@ h1 {
 .center {
     padding: 0 20px;
 
+    @include mediaFrom(md) {
+        padding: 0 80px;
+    }
+
     @include mediaFrom(lg) {
         padding: 0 140px;
     }
