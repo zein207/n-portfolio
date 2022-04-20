@@ -6,14 +6,11 @@ import { Skills } from '../ui/Skills'
 
 export const HomeScreen = () => {
   return (
-    <div className='home__wrapper'>
+    <div className='home__wrapper animate__animated animate__fadeIn'>
 
-      <div>
       <About />
       
       <Projects />
-
-      </div>
 
       <div className='center info'>
 

@@ -9,7 +9,7 @@ export const Footer = () => {
       <div className='footer__main-container'>
 
         <div className='footer__legal'>
-          <p>David Ponce &copy; { currentYear }</p>
+          <p>Made with lots of <i className="fa-solid fa-mug-hot mv-1"></i> David Ponce &copy; { currentYear }</p>
         </div>
 
         <div className='footer__social'>

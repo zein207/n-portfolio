@@ -4,7 +4,7 @@ import { copyNumber } from '../../helpers/copyNumber'
 export const ContactScreen = () => {
 
   return (
-      <div className='center contact-screen__wrapper'>
+      <div className='center contact-screen__wrapper animate__animated animate__fadeIn'>
           <h2 className='subtitle'>Contact me</h2>
 
           <div className='mt-10'>
@@ -16,7 +16,7 @@ export const ContactScreen = () => {
           </div>
           <address className='contact__wrapper mt-10'>
               <a className='contact__item' href='mailto:davidponceg207@gmail.com'><i className="fa-regular fa-envelope"></i> davidponceg207@gmail.com</a>
-              <p className='contact__item' onClick={ copyNumber }><i className="fa fa-phone"></i> 55 19 13 08 41</p>
+              <p className='contact__item pointer' onClick={ copyNumber }><i className="fa fa-phone"></i> 55 19 13 08 41</p>
           </address>
       </div>
   )

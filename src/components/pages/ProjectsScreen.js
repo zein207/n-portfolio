@@ -10,7 +10,7 @@ export const ProjectsScreen = () => {
 
   return (
 
-    <div className='projects__main-container projects-screen center'>
+    <div className='projects__main-container projects-screen center animate__animated animate__fadeIn'>
 
         <h2 className='subtitle'>Projects that I've worked on</h2>
 

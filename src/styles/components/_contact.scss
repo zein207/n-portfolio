@@ -9,6 +9,12 @@
 
     &__item {
 
+        display: block;
+
+        transition-property: transform;
+        transition-duration: 0.3s;
+        transition-timing-function: ease;
+
         margin: 20px 0;
         @include themify(){
             color: themed("text-color");
@@ -16,6 +22,10 @@
 
         i {
             margin-right: 10px;
+        }
+
+        &:hover {
+            transform: translateX(10px);
         }
     }
 }

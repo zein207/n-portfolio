@@ -10,10 +10,19 @@ footer {
     .footer__main-container {
         display: flex;
         justify-content: space-evenly;
+        @include mediaTo(md) {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
     }
 
     .footer__legal {
         letter-spacing: 0.9px;
+        font-size: 12px;
+
+        @include mediaTo(md) {
+            margin-top: 20px;
+        }
     }
 
     .footer__social-list {

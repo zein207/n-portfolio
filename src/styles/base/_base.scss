@@ -60,6 +60,11 @@ h1 {
     margin-right: 20px;
 }
 
+.mv-1 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
 .ml-5 {
     margin-left: 25px;
 }
@@ -90,8 +95,20 @@ h1 {
 .btn-primary {
     background-color: $c-primary;
     color: #fff;
+
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+
+    &:hover {
+        background-color: darken($c-primary, 7);
+    }
 }
 
 .btn-block {
     display: block;
+}
+
+.pointer {
+    cursor: pointer;
 }
