@@ -2,6 +2,7 @@
 
     &__main-container {
         margin-top: 100px;
+        margin-bottom: 90px;
 
         @include mediaFrom(lg) {
             margin-bottom: 160px;
@@ -9,14 +10,28 @@
     }
 
     &__wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 40px;
 
+        display: block;
         @include mediaFrom(lg) {
-            flex-direction: row;
+            margin-top: 50px;
+            margin-bottom: 60px;
+        }
+
+        .projects-screen & {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            @include mediaFrom(md) {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            @include mediaFrom(xl) {
+                grid-template-columns: repeat(3, 1fr);
+            }
         }
     }
 

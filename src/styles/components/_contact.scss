@@ -31,11 +31,24 @@
 
         margin-top: 100px;
 
+        
         h1, p {
             text-align: center;
-
+            
             @include themify(){
                 color: themed("text-color");
+            }
+        }
+
+        p {
+            cursor: pointer;
+        }
+
+        a {
+            
+            @include mediaFrom(lg) {
+                text-align: center !important;
+                display: block;
             }
         }
 
