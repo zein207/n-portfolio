@@ -18,7 +18,7 @@ export const projects = [
         'name':'E Ecommerce', 
         'cover':'images/projects/e-ecommerce-cover.jpg', 
         'project_description': 'Landing page of a tech ecommerce',
-        'url': 'https://journal-app-gray.vercel.app/'
+        'url': 'https://e-ecommerce-rho.vercel.app'
     },
     {
         'id': 'journal-app',
