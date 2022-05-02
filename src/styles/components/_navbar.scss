@@ -45,7 +45,7 @@ header {
         }
 
         .theme--light &{
-            background-image: url('../../../public/images/bg-light-mobile.JPEG');
+            background-image: url('../../../public/images/bg-white-m.jpg');
         }
 
         @include mediaFrom(lg) {
