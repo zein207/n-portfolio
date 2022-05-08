@@ -33,5 +33,12 @@ export const projects = [
         'cover':'images/projects/plants-cover.jpg', 
         'project_description': 'Landing page of a plants shop',
         'url': 'https://zein207.github.io/bonsai/'
+    },
+    {
+        'id': 'calendar-app',
+        'name':'Calendar App', 
+        'cover':'images/projects/calendar-cover.jpg', 
+        'project_description': 'Calendar application',
+        'url': 'https://mern-calendar-david-p.herokuapp.com/'
     }
 ]
