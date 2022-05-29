@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { projects } from '../../data/projects'
 import { ProjectCard } from './ProjectCard'
 
-export const Projects = () => {
+export const Projects = () => {    
 
     const firstProjects = projects.slice(0, 4)
 
