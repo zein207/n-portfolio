@@ -10,13 +10,6 @@
         transition-duration: 0.3s;
         transition-timing-function: ease;
 
-        @include mediaFrom(md) {
-            .splide__slide.is-active & {
-                transform: scale(1.1);
-            }
-        }
-
-
     }
 
     &__img {

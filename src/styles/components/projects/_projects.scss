@@ -33,6 +33,24 @@
                 grid-template-columns: repeat(3, 1fr);
             }
         }
+
+        .projects__home-screen & {
+            display: flex;
+            flex-direction: column;
+            
+            @include mediaFrom(md) {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .project__img {
+                height: 250px;
+
+                @include mediaTo(md) {
+                    height: 210px;
+                }
+            }
+        }
     }
 
     &__more {
