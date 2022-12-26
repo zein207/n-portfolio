@@ -15,7 +15,7 @@ export const ProjectCard = ({ name, cover, url, project_description}) => {
                     entry.target.classList.add('animate__fadeInLeft');
                     return;
                 }
-                entry.target.classList.remove('animate__fadeInLeft');
+                // entry.target.classList.remove('animate__fadeInLeft');
             });
         });
           
