@@ -7,6 +7,13 @@ export const projects = [
         'url': 'https://www.ae.com.gt/'
     },
     {
+        'id': 'guess-mx',
+        'name':'Guess MX', 
+        'cover':'images/projects/guess-cover.png', 
+        'project_description': 'eCommerce implementation with VTEX & VTEX IO',
+        'url': 'https://www.guess.mx/'
+    },
+    {
         'id': 'taf',
         'name':'TAF MX', 
         'cover':'images/projects/taf-cover.jpg', 
@@ -28,6 +35,20 @@ export const projects = [
         'url': 'https://www.victoriassecretbeauty.ar/'
     },
     {
+        'id': 'tommy-hilfiger',
+        'name':'Tommy Hilfiger MX', 
+        'cover':'images/projects/tommy-cover.jpg', 
+        'project_description': 'eCommerce implementation with VTEX & VTEX IO',
+        'url': 'https://mx.tommy.com/'
+    },
+    {
+        'id': 'voit',
+        'name':'Voit', 
+        'cover':'images/projects/voit-cover.png', 
+        'project_description': 'eCommerce implementation with VTEX & VTEX IO',
+        'url': 'https://www.voit.com.mx/'
+    },
+    {
         'id': 'ferretop',
         'name':'Ferretop', 
         'cover':'images/projects/ferretop-cover.jpg', 
@@ -47,13 +68,6 @@ export const projects = [
         'cover':'images/projects/vinoteca-cover.jpg', 
         'project_description': 'eCommerce implementation with VTEX & VTEX IO',
         'url': 'https://www.vinoteca.com/'
-    },
-    {
-        'id': 'tommy-hilfiger',
-        'name':'Tommy Hilfiger MX', 
-        'cover':'images/projects/tommy-cover.jpg', 
-        'project_description': 'eCommerce implementation with VTEX & VTEX IO',
-        'url': 'https://mx.tommy.com/'
     },
     {
         'id': 'payless',

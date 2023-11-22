@@ -17,7 +17,7 @@ export const About = () => {
               I like to collaborated with talented people to create the best <span className='c-primary'>Frontend</span> solutions for our costumers.
             </p>
 
-            <Link className='btn btn-primary mt-5 about__cta' to='/contact'>Get in Touch</Link>
+            <Link className='btn btn-primary mt-5 about__cta' to='/contact'><span>Get in Touch</span></Link>
 
         </div>
     </div>

@@ -17,9 +17,24 @@
     }
 
     .theme--light &{
-        background-image: url('../../../public/images/bg-white-m.jpg');
-        @include mediaFrom(lg) {
-            background-image: url('../../../public/images/bg-white-d.jpg');
+        // background-image: url('../../../public/images/bg-white-m.jpg');
+        // @include mediaFrom(lg) {
+        //     background-image: url('../../../public/images/bg-white-d.jpg');
+        // }
+        background:
+            radial-gradient(circle, rgba(138, 250, 52, 0.9) 0%,hsla(0,0%,100%,0) 44%),
+            radial-gradient(circle,#5A6394 0,hsla(0,0%,100%,0) 45%);
+        background-position-x: calc(50% - 43vw), calc(50% + 49vw);
+        background-position-y: 20rem, -2rem;
+        background-repeat: no-repeat, no-repeat;
+
+        @include mediaTo(sm) {
+            background:
+            radial-gradient(circle, rgba(138, 250, 52, 0.9) 0%,hsla(0,0%,100%,0) 42%),
+            radial-gradient(circle,#5A6394 0,hsla(0,0%,100%,0) 40%);
+            background-position-y: 20rem, -10rem;
+            background-position-x: calc(50% - 43vw), calc(50% + 55vw);
+            background-repeat: no-repeat, no-repeat;
         }
     }
 }
