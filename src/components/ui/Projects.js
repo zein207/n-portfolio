@@ -5,7 +5,7 @@ import { ProjectCard } from './ProjectCard'
 
 export const Projects = () => {    
 
-    const firstProjects = projects.slice(0, 4)
+    const firstProjects = projects.slice(0, 6)
 
     return (
         <div className='projects__main-container projects__home-screen center'>

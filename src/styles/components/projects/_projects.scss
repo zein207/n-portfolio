@@ -40,16 +40,16 @@
             
             @include mediaFrom(md) {
                 display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(3, 1fr);
             }
 
-            .project__img {
-                height: 250px;
+            // .project__img {
+            //     height: 250px;
 
-                @include mediaTo(md) {
-                    height: 210px;
-                }
-            }
+            //     @include mediaTo(md) {
+            //         height: 210px;
+            //     }
+            // }
         }
     }
 

@@ -1,12 +1,16 @@
 
 
 .main-container {
-    height: 100vh;
-    overflow-y: scroll;
+    // height: 100vh;
     overflow-x: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
+    @include mediaTo(sm) {
+        overflow-y: scroll;
+        height: 100vh;
+    }
 
     .theme--dark &{
         background-image: url('../../../public/images/bg-dark-mobile.JPEG');
@@ -25,8 +29,17 @@
             radial-gradient(circle, rgba(138, 250, 52, 0.9) 0%,hsla(0,0%,100%,0) 44%),
             radial-gradient(circle,#5A6394 0,hsla(0,0%,100%,0) 45%);
         background-position-x: calc(50% - 43vw), calc(50% + 49vw);
-        background-position-y: 20rem, -2rem;
+        background-position-y: 50rem, -40rem;
         background-repeat: no-repeat, no-repeat;
+
+        @include mediaTo(lg) {
+            background:
+            radial-gradient(circle, rgba(138, 250, 52, 0.9) 0%,hsla(0,0%,100%,0) 33%),
+            radial-gradient(circle,#5A6394 0,hsla(0,0%,100%,0) 33%);
+            background-position-x: calc(50% - 43vw), calc(50% + 49vw);
+            background-position-y: 50rem, -40rem;
+            background-repeat: no-repeat, no-repeat;
+        }
 
         @include mediaTo(sm) {
             background:

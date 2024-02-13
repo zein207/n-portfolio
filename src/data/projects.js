@@ -35,6 +35,13 @@ export const projects = [
         'url': 'https://www.victoriassecretbeauty.ar/'
     },
     {
+        'id': 'adidas-pa',
+        'name':'adidas Panamá', 
+        'cover':'images/projects/adidas-cover.jpg', 
+        'project_description': 'eCommerce implementation with VTEX & VTEX IO',
+        'url': 'https://www.adidas.pa/'
+    },
+    {
         'id': 'tommy-hilfiger',
         'name':'Tommy Hilfiger MX', 
         'cover':'images/projects/tommy-cover.jpg', 
